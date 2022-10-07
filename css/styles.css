@@ -1,0 +1,205 @@
+:root {
+  --primary-text-color: #757575;
+  --top-background-color: #ffffff;
+  --hero-background-color: #2f303a;
+  --main-background-color: #f5f5f5;
+  --hero-text-color: #ffffff;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --logo-text-color: #000000;
+  --adress-text-color: rgba(255, 255, 255, 0.6);
+  --pbutton-background-color: #f5f4fa;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Стиль кнопок навигации и адреса */
+.page {
+  font-family: roboto, sans-serif;
+
+  background-color: var(--main-background-color);
+}
+.top-section {
+  background-color: var(--top-background-color);
+}
+/* Логотип */
+.logo {
+  font-weight: 700;
+  color: var(--logo-text-color);
+  font-family: raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Цвет и стиль кнопок навигации и адреса */
+.nav-button {
+  color: var(--title-text-color);
+}
+
+.nav-button {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.navi-button {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--adress-text-color);
+}
+/* Эффекты кнопок навигации */
+
+.buttons .nav-button:hover,
+.buttons .nav-button:focus,
+.contacts .nav-button:hover,
+.contacts .nav-button:focus {
+  color: var(--accent-text-color);
+}
+
+.contacts-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-nav:hover,
+.navi-button:hover,
+.contacts-nav:focus,
+.navi-button:focus {
+  color: var(--accent-text-color);
+}
+/* Оглавления и шрифты */
+
+/* Оглавление герой */
+.titleone {
+  color: var(--top-background-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  line-height: 1.36;
+}
+.hero {
+  background-color: var(--hero-background-color);
+}
+/* Оглавления три */
+.title-three {
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Оглавления два */
+.title-two {
+  letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+}
+
+/* Текст под оглавлением */
+.text {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.text-name {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Подвал */
+.adress-down {
+  font-style: unset;
+  font-family: roboto;
+  background-color: var(--hero-background-color);
+}
+
+.page-down {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Адрес */
+.contacts-down {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--logo-text-color);
+}
+.location .link {
+  color: var(--top-background-color);
+}
+
+.button-text {
+  color: var(--hero-text-color);
+  background-color: var(--accent-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+.mail-down .tel-number {
+  color: var(--adress-text-color);
+}
+
+.location {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+}
+.link:hover,
+.link:focus,
+.tel-number .nav-button:hover,
+.tel-number .nav-button:focus,
+.mail-down .nav-button:hover,
+.mail-down .nav-button:focus {
+  color: var(--accent-text-color);
+}
+
+.title-text {
+  color: var(--title-text-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.title-object {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio-button {
+  background-color: var(--pbutton-background-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.portfolio-button:hover,
+.button-text:hover,
+.portfolio-button:focus,
+.button-text:focus {
+  color: var(--top-background-color);
+  background-color: var(--accent-text-color);
+}
